@@ -2,15 +2,7 @@
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        string[] array = ReadArray(); 
-        PrintArray(array); 
-        string[] newArray = FilterArray(array); 
-        PrintArray(newArray); 
-
-        Console.ReadKey(); 
-    }
+   
 
   
     static string[] ReadArray()
@@ -65,4 +57,13 @@ class Program
         }
     }
 
+ static void Main(string[] args)
+    {
+        string[] array = ReadArray(); 
+        PrintArray(array); 
+        string[] newArray = FilterArray(array); 
+        PrintArray(newArray); 
+
+        Console.ReadKey(); 
+    }
 }
